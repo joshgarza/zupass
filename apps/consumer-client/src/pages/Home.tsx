@@ -45,6 +45,11 @@ function Page(): JSX.Element {
               Prove and Get a ZKEdDSA Frog Proof from Zupass
             </Link>
           </li>
+          <li>
+            <Link to="/examples/pcd-verifier">
+              Verify PCDs and visualize the ecosystem
+            </Link>
+          </li>
         </ol>
       </div>
     </div>

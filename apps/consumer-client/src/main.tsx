@@ -5,6 +5,7 @@ import { GlobalStyle } from "./components/GlobalStyle";
 import AddPCD from "./pages/examples/add-pcd";
 import GetWithoutProving from "./pages/examples/get-without-proving";
 import GroupProof from "./pages/examples/group-proof";
+import PCDVerifier from "./pages/examples/pcd-verifier";
 import SignatureProof from "./pages/examples/signature-proof";
 import ZkEDdSAEventTicketProof from "./pages/examples/zk-eddsa-event-ticket-proof";
 import ZkEDdSAFrogProof from "./pages/examples/zk-eddsa-frog-proof";
@@ -20,6 +21,7 @@ const router = createHashRouter([
   { path: "examples/signature-proof", element: <SignatureProof /> },
   { path: "examples/get-without-proving", element: <GetWithoutProving /> },
   { path: "examples/add-pcd", element: <AddPCD /> },
+  { path: "examples/pcd-verifier", element: <PCDVerifier /> },
   {
     path: "examples/zk-eddsa-event-ticket-proof",
     element: <ZkEDdSAEventTicketProof />
